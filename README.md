@@ -1,0 +1,1 @@
+A modified rsync binary that can limits the amount of data transferred.  Useful for cronned backup over the Internet when the remote has a small number of GB allowed per month.  For example, my in-laws have 20 GB/month so I limit the transfer to 2GB per week, just to be super safe.
